@@ -1,4 +1,4 @@
-package designPatterns
+package creational
 
 import "testing"
 
@@ -21,4 +21,5 @@ func TestGetInstance(t *testing.T) {
 	if currentCount != 2 {
 		t.Errorf("After calling addOne second time the current value must be 2 but it is %d\n", currentCount)
 	}
+
 }

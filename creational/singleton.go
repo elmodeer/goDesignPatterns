@@ -1,4 +1,4 @@
-package designPatterns
+package creational
 
 type Singleton interface {
 	AddOne() int
