@@ -13,7 +13,6 @@ func TestGetInstance(t *testing.T) {
 	if currentCount != 1 {
 		t.Errorf("Aftet calling for the first time to count, the count must be 1 but it is %d\n", currentCount)
 	}
-
 	counter2 := GetInstance()
 	if counter2 != expectedCounter {
 		t.Error("Expected same instance in counter2 but it got a different instance")
