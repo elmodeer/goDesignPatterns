@@ -1,2 +1,2 @@
 # goDesignPatterns
-simple implementation of famous design patterns in Go 
+basic implementation of famous design patterns in Go 
